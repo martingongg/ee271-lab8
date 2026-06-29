@@ -1,0 +1,38 @@
+# Quartus build artifacts
+db/
+incremental_db/
+output_files/
+*.qws
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pin
+*.sld
+*.sopcinfo
+*.sof
+*.pof
+*.rbf
+*.map
+*.sta.rpt
+
+# ModelSim / Questa simulation outputs
+work/
+simulation/
+*.wlf
+wlft*
+transcript
+msim_transcript
+modelsim.ini
+
+# Waveforms and dumps
+*.vcd
+*.vcd.gz
+
+# Backup and temp files
+*.bak
+*.bak*
+*.echo
+*_dump.txt
+*.ddb
+*.srf
